@@ -44,7 +44,7 @@ namespace Mango.Services.ProductAPI.Repository
 
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
                return false;
             }
